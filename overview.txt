@@ -1,0 +1,6 @@
+KURSOR GRACZA MUSI BYC JAKIS FAJNY 
+
+1.Kropki beda pojawiac sie co x czas na x czasu 
+2.Jezeli gracz trafi w kropke, kropka znika oraz gracz odstaje punkt. Jezelio gracz nie tafi w kropke
+traci punkt zycia.
+3.Jezeli gracz uzbiera wyznaczoną liczbe punktów wyskakuje wygrałeś 

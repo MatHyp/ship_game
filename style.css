@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('bgc.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container .title {
+  position: absolute;
+  top: 40vh;
+  left: 50vw;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  margin-bottom: 30px;
+  font-size: 60px;
+  font-family: 'Lato', sans-serif;
+  color: rgb(255, 255, 255);
+
+}
+
+.container .btn-start {
+  position: absolute;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 70px;
+  background-color: rgb(255, 255, 189);
+  border-radius: 50px;
+}
+
+.startHidden {
+  position: fixed;
+  left: 10000px;
+}
+
+#ship {
+  width: 13vw;
+  position: absolute;
+  margin: 30px;
+}
+
+.score-box{
+  text-align: center;
+  color: white;
+  /* display: inline-block; */
+}
+
+.score-box h1{
+  position: absolute;
+  font-size: 40px;
+  left: 50vw;
+  transform: translate(-50%,-50%);
+}
+
+.score-box h2{
+  transform: translate(-50%,-50%);
+  left: 50vw;
+  top:80px;
+  position: absolute;
+  font-size: 32px;
+}
+
+.point{
+
+  height: 5vh;  
+  text-align: left;
+}
